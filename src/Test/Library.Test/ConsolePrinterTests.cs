@@ -20,13 +20,5 @@ namespace Library.Test
         {
             Assert.Pass();
         }
-        [Test]
-
-        public void TestImprimirunasolalinea()
-        {
-            recipe.linea = "Hola";
-            string receta = console.PrintRecipe(recipe);
-            Assert.AreEqual("Hola", receta);
-        }
     }
 }
