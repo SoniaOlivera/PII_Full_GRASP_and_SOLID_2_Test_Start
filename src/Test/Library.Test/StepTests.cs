@@ -79,6 +79,5 @@ namespace Library.Test
         {
             Assert.IsTrue(product.UnitCost > 0 && step.Quantity > 0 && equipment.HourlyCost > 0 && step.Time > 0);
         }
-
     }
 }
